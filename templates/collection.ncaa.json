@@ -11,33 +11,7 @@
     },
     "main-collection": {
       "type": "collection-ncaa",
-      "blocks": {
-        "collection_description": {
-          "type": "collection_description",
-          "settings": {
-          }
-        },
-        "subcollections": {
-          "type": "subcollections",
-          "settings": {
-            "subcollections_per_row": 5
-          }
-        },
-        "product_grid": {
-          "type": "product_grid",
-          "settings": {
-            "enable_collection_count": true,
-            "per_row": 5,
-            "rows_per_page": 7,
-            "mobile_flush_grid": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_description",
-        "subcollections",
-        "product_grid"
-      ],
+
       "settings": {
         "enable_sidebar": false,
         "collapsed": true,
