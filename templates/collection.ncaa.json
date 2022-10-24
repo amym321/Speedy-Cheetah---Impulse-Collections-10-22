@@ -11,13 +11,7 @@
     },
     "main-collection": {
       "type": "collection-ncaa",
-
       "settings": {
-        "enable_sidebar": false,
-        "collapsed": true,
-        "filter_style": "sidebar",
-        "enable_color_swatches": false,
-        "enable_sort": true
       }
     }
   },
