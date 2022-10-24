@@ -30,28 +30,26 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
 >
-
   <div id="CollectionAjaxContent" >
-    <div class="page-width">
+    <div class="page-width page-content">
+      <div class="grid grid--uniform">
+        {% assign collection_count = 0 %}
 
-      {% assign collection_count = 0 %}
-
-      {% for collection in collections %}
-        {% if collection.handle contains 'buy' %}
-          {% assign skipMe = true %}
-        {% else %}
-          {% assign skipMe = false %}
-        {% endif %}
-  
-        {% assign productTags = collection.products.first.tags %}
-  
-        {% if productTags contains 'NCAA' and skipMe == false %}
-          {% render 'collection-grid-item' collection: collection, grid_item_width: grid_item_width  %}
-          {% assign collection_count = collection_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-
-
+        {% for collection in collections %}
+          {% if collection.handle contains 'buy' %}
+            {% assign skipMe = true %}
+          {% else %}
+            {% assign skipMe = false %}
+          {% endif %}
+    
+          {% assign productTags = collection.products.first.tags %}
+    
+          {% if productTags contains 'NCAA' and skipMe == false %}
+            {% render 'collection-grid-item' collection: collection, grid_item_width: grid_item_width  %}
+            {% assign collection_count = collection_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
