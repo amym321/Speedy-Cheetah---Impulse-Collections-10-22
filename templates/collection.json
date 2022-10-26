@@ -11,6 +11,7 @@
     },
     "promo-grid": {
       "type": "promo-grid",
+      "disabled": true,
       "blocks": {
         "banner": {
           "type": "banner",
