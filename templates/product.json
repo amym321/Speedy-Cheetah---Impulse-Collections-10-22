@@ -64,6 +64,14 @@
             "page": "shipping"
           }
         },
+        "8b2f01be-7ef9-4deb-870c-07e52cfbdfae": {
+          "type": "tab",
+          "settings": {
+            "title": "Return Policy",
+            "content": "",
+            "page": "returns"
+          }
+        },
         "contact": {
           "type": "contact",
           "settings": {
@@ -87,6 +95,7 @@
         "buy_buttons",
         "description",
         "tab",
+        "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
         "contact",
         "share"
       ],
