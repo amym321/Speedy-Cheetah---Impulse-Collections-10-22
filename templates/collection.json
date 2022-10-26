@@ -76,7 +76,7 @@
         "product_grid": {
           "type": "product_grid",
           "settings": {
-            "enable_collection_count": true,
+            "enable_collection_count": false,
             "per_row": 3,
             "rows_per_page": 5,
             "mobile_flush_grid": false
