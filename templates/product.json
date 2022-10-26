@@ -130,6 +130,7 @@
     },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Impressive",
         "title": "About your brand",
@@ -146,6 +147,7 @@
     },
     "text-and-image": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
@@ -161,6 +163,7 @@
     },
     "text-and-image2": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
