@@ -72,6 +72,14 @@
             "page": "shipping"
           }
         },
+        "54840c23-29d4-4697-ad39-3314df607d58": {
+          "type": "tab",
+          "settings": {
+            "title": "About Us",
+            "content": "",
+            "page": "about"
+          }
+        },
         "contact": {
           "type": "contact",
           "settings": {
@@ -96,6 +104,7 @@
         "description",
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
         "tab",
+        "54840c23-29d4-4697-ad39-3314df607d58",
         "contact",
         "share"
       ],
