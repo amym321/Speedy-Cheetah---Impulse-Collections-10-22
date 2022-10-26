@@ -59,7 +59,7 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "title": "Shipping information",
+            "title": "Shipping",
             "content": "",
             "page": "shipping"
           }
