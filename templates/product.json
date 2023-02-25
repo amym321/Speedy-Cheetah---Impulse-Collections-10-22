@@ -28,19 +28,18 @@
             "color_swatches": false
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "disabled": true,
-          "settings": {
-            "icon": "truck",
-            "text": "Free standard shipping excpet HI and AK"
-          }
-        },
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
             "inventory_threshold": 4,
             "inventory_transfers_enable": true
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping!"
           }
         },
         "buy_buttons": {
@@ -98,8 +97,8 @@
         "loox-rating",
         "separator",
         "variant_picker",
-        "sales_point",
         "inventory_status",
+        "sales_point",
         "buy_buttons",
         "description",
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
@@ -112,7 +111,7 @@
         "sku_enable": false,
         "image_position": "left",
         "image_size": "medium",
-        "product_zoom_enable": true,
+        "product_zoom_enable": false,
         "thumbnail_position": "below",
         "thumbnail_height": "flexible",
         "thumbnail_arrows": false,
@@ -249,6 +248,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
+            "limit": 20,
             "hide_thumbnails": false,
             "maxwidth": 1080
           }
