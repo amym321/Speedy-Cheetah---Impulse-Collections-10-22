@@ -553,23 +553,20 @@
                     }
                     if(formElement.closest('.cart__item') && formElement.closest('.cart__item').getAttribute('data-key') && !window.location.href.includes('/cart')) {
                         rfc_variant_id = formElement.closest('.cart__item').getAttribute('data-key').split(':')[0]
-                        fetch('/cart.js').then((response) => response.json())
-                        .then((data) => {
-                            data['items'].forEach(function (item, index) {
-                              if (item['id'] == rfc_variant_id){
-                                window.dataLayer.push({
-                                    event:'ee_removeFromCart',
-                                    product_id : item['product_id'],
-                                    product_name: item['product_title'],
-                                    variant_id : item['id'],
-                                    variant_title: item['variant_title'],
-                                    product_price: (item['price'] / 100).toFixed(2).toString(),
-                                    currency: detectedCurrency,
-                                    product_brand: item['vendor'],
-                                    quantity: 1
-                                });
-                              }
+                        cartItems['items'].forEach(function (item, index) {
+                          if (item['id'] == rfc_variant_id){
+                            window.dataLayer.push({
+                                event:'ee_removeFromCart',
+                                product_id : item['product_id'],
+                                product_name: item['product_title'],
+                                variant_id : item['id'],
+                                variant_title: item['variant_title'],
+                                product_price: (item['price'] / 100).toFixed(2).toString(),
+                                currency: detectedCurrency,
+                                product_brand: item['vendor'],
+                                quantity: 1
                             });
+                          }
                         });
                     }
                     if (!removedItem.length) {
