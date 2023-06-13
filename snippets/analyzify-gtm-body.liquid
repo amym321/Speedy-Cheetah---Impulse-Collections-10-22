@@ -533,15 +533,13 @@
             };
 
             window.analyzify.rfcEventFunc = async () => {
-                debugger
                 const removedItem = [];
                 const possibleIDs = [];
                 const formElement = foundElements[0];
                 const cartItems = await fetch('/cart.js').then(response => response.json());
-                // const {
-                //   items: cartItemsJson
-                // } = cartItems;
-                debugger
+                const {
+                  items: cartItemsJson
+                } = cartItems;
                 if(formElement){
                     if(formElement.getAttribute('href')) {
                         if(formElement.getAttribute('href').includes('/cart/change?line=')){
@@ -600,6 +598,7 @@
                         })
                     }
                     if(removedItem[0] && window.location.href.includes('/cart')) {
+                        debugger
                         window.dataLayer.push({
                             event: 'ee_removeFromCart',
                             product_id : removedItem[0].product_id,
