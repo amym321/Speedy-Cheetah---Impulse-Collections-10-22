@@ -571,7 +571,7 @@
                             })
                         })
                     }
-                    if(removedItem[0]) {
+                    if(removedItem[0] && window.location.href.includes('/cart')) {
                         window.dataLayer.push({
                             event: 'ee_removeFromCart',
                             product_id : removedItem[0].product_id,
