@@ -539,6 +539,7 @@
                 const {
                   items: cartItemsJson
                 } = cartItems;
+                debugger
                 if(formElement){
                     if(formElement.getAttribute('href')) {
                         if(formElement.getAttribute('href').includes('/cart/change?line=')){
@@ -615,7 +616,6 @@
                     } else{
                         analyzify.log('Removed element not found');
                     }
-                    debugger
                 }
             }
 
