@@ -538,9 +538,9 @@
                 const possibleIDs = [];
                 const formElement = foundElements[0];
                 const cartItems = await fetch('/cart.js').then(response => response.json());
-                const {
-                  items: cartItemsJson
-                } = cartItems;
+                // const {
+                //   items: cartItemsJson
+                // } = cartItems;
                 debugger
                 if(formElement){
                     if(formElement.getAttribute('href')) {
