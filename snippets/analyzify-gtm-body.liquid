@@ -537,6 +537,7 @@
                 const possibleIDs = [];
                 const formElement = foundElements[0];
                 const cartItems = await fetch('/cart.js').then(response => response.json());
+                debugger
                 const {
                   items: cartItemsJson
                 } = cartItems;
