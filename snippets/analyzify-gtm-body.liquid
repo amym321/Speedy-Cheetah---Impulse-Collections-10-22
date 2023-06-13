@@ -551,6 +551,14 @@
                             }
                         }
                     }
+                    if(formElement.closest('.cart__item') && formElement.closest('.cart__item').getAttribute('data-key') && window.location.href.includes('/cart')) {
+                        rfc_variant_id = formElement.closest('.cart__item').getAttribute('data-key').split(':')[0]
+                        cartItems.items.filter(function(product) {
+                            if (product.variant_id == Number(rfc_variant_id)){
+                                removedItem.push(product);
+                            }
+                        });
+                    }
                     if(formElement.closest('.cart__item') && formElement.closest('.cart__item').getAttribute('data-key') && !window.location.href.includes('/cart')) {
                         rfc_variant_id = formElement.closest('.cart__item').getAttribute('data-key').split(':')[0]
                         cartItems['items'].forEach(function (item, index) {
