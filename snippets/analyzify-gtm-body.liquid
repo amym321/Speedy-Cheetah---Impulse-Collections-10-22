@@ -442,7 +442,6 @@
                     analyzify.log('The clicked button/link was not a addtocart, removefromcart or checkout button.');
                     analyzify.log(event);
                 }
-                debugger
             });
 
             if (analyzify.rebuy_atc_rfc) {
@@ -536,9 +535,7 @@
                 const removedItem = [];
                 const possibleIDs = [];
                 const formElement = foundElements[0];
-                debugger
                 const cartItems = await fetch('/cart.js').then(response => response.json());
-                debugger
                 const {
                   items: cartItemsJson
                 } = cartItems;
@@ -600,7 +597,6 @@
                         })
                     }
                     if(removedItem[0] && window.location.href.includes('/cart')) {
-                        debugger
                         window.dataLayer.push({
                             event: 'ee_removeFromCart',
                             product_id : removedItem[0].product_id,
