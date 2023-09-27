@@ -369,7 +369,6 @@
       },
       "1525886124958": {
         "type": "promo-grid",
-        "disabled": true,
         "blocks": {
           "1525886482727": {
             "type": "advanced",
@@ -397,6 +396,7 @@
         "block_order": [
           "1525886482727"
         ],
+        "disabled": true,
         "settings": {
           "full_width": false,
           "gutter_size": 20,
@@ -545,8 +545,8 @@
       "1525118065355"
     ],
     "blocks": {
-      "10482022236191052793": {
-        "type": "shopify:\/\/apps\/upsell-pop-ups-email-marketing\/blocks\/app-embed\/132e40c2-70ba-43b3-a955-a0fc9d4c0be8",
+      "1513253815146976218": {
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
         "settings": {
         }
