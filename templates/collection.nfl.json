@@ -12,6 +12,7 @@
     "main-collection": {
       "type": "collection-nfl",
       "settings": {
+        "grid": "3"
       }
     }
   },
