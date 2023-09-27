@@ -11,6 +11,15 @@
         "loox-rating": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
           }
         },
         "separator": {
@@ -111,7 +120,7 @@
         "sku_enable": false,
         "image_position": "left",
         "image_size": "medium",
-        "product_zoom_enable": false,
+        "product_zoom_enable": true,
         "thumbnail_position": "below",
         "thumbnail_height": "flexible",
         "thumbnail_arrows": false,
@@ -178,7 +187,6 @@
     },
     "testimonials": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -213,6 +221,7 @@
         "testimonials-1",
         "testimonials-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "align_text": "center",
