@@ -54,7 +54,7 @@
         "sales_point": {
           "type": "sales_point",
           "settings": {
-            "icon": "gift",
+            "icon": "truck",
             "text": "Free same day shipping if order is placed by 1PM PST!"
           }
         },
