@@ -41,8 +41,8 @@
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
-            "inventory_threshold": 4,
-            "inventory_transfers_enable": true
+            "inventory_threshold": 0,
+            "inventory_transfers_enable": false
           }
         },
         "text_TKKVtY": {
