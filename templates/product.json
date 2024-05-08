@@ -45,11 +45,17 @@
             "inventory_transfers_enable": true
           }
         },
+        "text_TKKVtY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
         "sales_point": {
           "type": "sales_point",
           "settings": {
             "icon": "truck",
-            "text": "Free shipping!"
+            "text": "Free shipping. Orders placed by 1PM PST ship today!"
           }
         },
         "buy_buttons": {
@@ -108,6 +114,7 @@
         "separator",
         "variant_picker",
         "inventory_status",
+        "text_TKKVtY",
         "sales_point",
         "buy_buttons",
         "description",
