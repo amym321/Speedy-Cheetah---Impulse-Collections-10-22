@@ -55,7 +55,7 @@
           "type": "sales_point",
           "settings": {
             "icon": "truck",
-            "text": "Ships FREE. Orders placed by 1PM PST ship today!"
+            "text": "Free same day shipping if order is placed by 1PM PST!"
           }
         },
         "buy_buttons": {
