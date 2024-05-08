@@ -127,7 +127,7 @@
       "settings": {
         "sku_enable": false,
         "image_position": "left",
-        "image_size": "medium",
+        "image_size": "large",
         "product_zoom_enable": true,
         "thumbnail_position": "below",
         "thumbnail_height": "flexible",
