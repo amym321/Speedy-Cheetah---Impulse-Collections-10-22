@@ -81,7 +81,7 @@
     "share_twitter": true,
     "share_pinterest": true,
     "favicon": "shopify:\/\/shop_images\/Cheetah-Favicon.jpg",
-    "show_breadcrumbs": true,
+    "show_breadcrumbs": false,
     "show_breadcrumbs_collection_link": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/New-Speedy-Cheetah-2021-PNG_56278602-899f-4a8b-9906-a16df9b87fee.png",
     "checkout_logo_position": "center",

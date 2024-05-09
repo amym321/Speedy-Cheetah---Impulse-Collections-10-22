@@ -67,13 +67,6 @@
           "settings": {
           }
         },
-        "subcollections": {
-          "type": "subcollections",
-          "disabled": true,
-          "settings": {
-            "subcollections_per_row": 2
-          }
-        },
         "product_grid": {
           "type": "product_grid",
           "settings": {
@@ -82,12 +75,18 @@
             "rows_per_page": 15,
             "mobile_flush_grid": false
           }
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 2
+          }
         }
       },
       "block_order": [
         "collection_description",
-        "subcollections",
-        "product_grid"
+        "product_grid",
+        "subcollections"
       ],
       "settings": {
         "enable_sidebar": true,
