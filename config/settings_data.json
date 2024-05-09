@@ -1827,5 +1827,10 @@
         "1526481405629"
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".grid-product__tag--sold-out {background-color: gray; color: white;}"
+    ]
   }
 }
