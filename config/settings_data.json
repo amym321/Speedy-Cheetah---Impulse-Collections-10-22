@@ -1830,7 +1830,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".grid-product__tag--sold-out {background-color: red; color: white;}"
+      ".grid-product__tag--sold-out {background-color: gray; color: white;}"
     ]
   }
 }
