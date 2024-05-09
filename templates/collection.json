@@ -3,7 +3,7 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
-        "enable": true,
+        "enable": false,
         "collection_image_enable": false,
         "parallax": false,
         "parallax_direction": "top"
