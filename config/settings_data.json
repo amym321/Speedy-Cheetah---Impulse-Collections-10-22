@@ -171,7 +171,7 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "mega_menu_images": false,
-          "main_menu_alignment": "center-split",
+          "main_menu_alignment": "center-drawer",
           "header_style": "normal",
           "sticky_index": false,
           "sticky_collection": false,
@@ -1830,7 +1830,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".grid-product__tag--sold-out {background-color: gray; color: white;}"
+      ".grid-product__tag--sold-out {background-color: red; color: white;}"
     ]
   }
 }
