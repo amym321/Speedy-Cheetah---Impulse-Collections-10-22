@@ -4,8 +4,8 @@
       "type": "collection-header",
       "settings": {
         "enable": true,
-        "collection_image_enable": true,
-        "parallax": true,
+        "collection_image_enable": false,
+        "parallax": false,
         "parallax_direction": "top"
       }
     },
