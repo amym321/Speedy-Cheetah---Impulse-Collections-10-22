@@ -3,8 +3,8 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
-        "enable": false,
-        "collection_image_enable": false,
+        "enable": true,
+        "collection_image_enable": true,
         "parallax": false,
         "parallax_direction": "top"
       }
