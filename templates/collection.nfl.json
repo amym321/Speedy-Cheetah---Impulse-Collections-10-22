@@ -12,7 +12,7 @@
     "main-collection": {
       "type": "collection-nfl",
       "settings": {
-        "grid": "3"
+        "grid": "2"
       }
     }
   },
