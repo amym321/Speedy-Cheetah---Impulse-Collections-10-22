@@ -75,7 +75,7 @@
           "settings": {
             "enable_collection_count": true,
             "per_row": 2,
-            "rows_per_page": 15,
+            "rows_per_page": 12,
             "mobile_flush_grid": false
           }
         },
