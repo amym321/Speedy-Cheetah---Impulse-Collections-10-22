@@ -12,7 +12,7 @@
     "main-collection": {
       "type": "collection-ncaa",
       "settings": {
-        "grid": "2"
+        "grid": "3"
       }
     }
   },
