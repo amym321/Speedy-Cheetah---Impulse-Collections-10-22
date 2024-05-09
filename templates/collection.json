@@ -3,7 +3,7 @@
     "collection-header": {
       "type": "collection-header",
       "custom_css": [
-
+        "h1 {font-size:0px}"
       ],
       "settings": {
         "enable": true,
