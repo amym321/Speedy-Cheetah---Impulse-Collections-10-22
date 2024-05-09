@@ -88,6 +88,9 @@
         "product_grid",
         "subcollections"
       ],
+      "custom_css": [
+        ".grid-product__tag--sold-out {background-color: gray; color: white;}"
+      ],
       "settings": {
         "enable_sidebar": true,
         "collapsed": false,
