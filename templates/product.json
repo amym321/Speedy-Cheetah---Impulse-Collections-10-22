@@ -71,6 +71,12 @@
             "is_tab": false
           }
         },
+        "text_yB4j86": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae": {
           "type": "tab",
           "settings": {
@@ -118,6 +124,7 @@
         "sales_point",
         "buy_buttons",
         "description",
+        "text_yB4j86",
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
         "tab",
         "54840c23-29d4-4697-ad39-3314df607d58",
