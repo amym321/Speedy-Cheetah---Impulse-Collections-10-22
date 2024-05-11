@@ -78,20 +78,28 @@
             "text": ""
           }
         },
+        "custom_BUERgN": {
+          "type": "custom",
+          "settings": {
+            "code": "<img height=\"\" width=\"\" alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0211\/9828\/files\/60_Day_Free_Returns_The_Speedy_Cheetah.jpg?v=1574378204\">"
+          }
+        },
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Return Policy",
-            "content": "<h3><br\/><br\/><\/h3>",
+            "content": "",
             "page": ""
           }
         },
         "tab": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Shipping",
             "content": "",
-            "page": "shipping"
+            "page": ""
           }
         },
         "54840c23-29d4-4697-ad39-3314df607d58": {
@@ -107,13 +115,6 @@
           "settings": {
             "title": "Ask a question",
             "phone": false
-          }
-        },
-        "custom_BUERgN": {
-          "type": "custom",
-          "disabled": true,
-          "settings": {
-            "code": "<h4>Custom code block<\/h4><p>Use this advanced section to add custom HTML, app scripts, or liquid.<\/p>"
           }
         },
         "share": {
@@ -133,11 +134,11 @@
         "buy_buttons",
         "description",
         "text_yB4j86",
+        "custom_BUERgN",
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
         "tab",
         "54840c23-29d4-4697-ad39-3314df607d58",
         "contact",
-        "custom_BUERgN",
         "share"
       ],
       "settings": {
