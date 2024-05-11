@@ -78,15 +78,8 @@
             "text": ""
           }
         },
-        "custom_BUERgN": {
-          "type": "custom",
-          "settings": {
-            "code": "<img height=\"\" width=\"\" alt=\"\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0211\/9828\/files\/60_Day_Free_Returns_The_Speedy_Cheetah.jpg?v=1574378204\">"
-          }
-        },
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae": {
           "type": "tab",
-          "disabled": true,
           "settings": {
             "title": "Return Policy",
             "content": "",
@@ -134,7 +127,6 @@
         "buy_buttons",
         "description",
         "text_yB4j86",
-        "custom_BUERgN",
         "8b2f01be-7ef9-4deb-870c-07e52cfbdfae",
         "tab",
         "54840c23-29d4-4697-ad39-3314df607d58",
