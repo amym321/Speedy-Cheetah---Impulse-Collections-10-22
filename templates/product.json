@@ -47,8 +47,9 @@
         },
         "text_TKKVtY": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": ""
+            "text": "60-day no hassle returns"
           }
         },
         "sales_point": {
@@ -81,8 +82,8 @@
           "type": "tab",
           "settings": {
             "title": "Return Policy",
-            "content": "",
-            "page": "returns"
+            "content": "<h3><br\/><br\/><\/h3>",
+            "page": ""
           }
         },
         "tab": {
@@ -108,6 +109,13 @@
             "phone": false
           }
         },
+        "custom_BUERgN": {
+          "type": "custom",
+          "disabled": true,
+          "settings": {
+            "code": "<h4>Custom code block<\/h4><p>Use this advanced section to add custom HTML, app scripts, or liquid.<\/p>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -129,6 +137,7 @@
         "tab",
         "54840c23-29d4-4697-ad39-3314df607d58",
         "contact",
+        "custom_BUERgN",
         "share"
       ],
       "settings": {
