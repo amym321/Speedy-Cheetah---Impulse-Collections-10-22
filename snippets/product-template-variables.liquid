@@ -17,6 +17,7 @@
   {
     "@context": "http://schema.org",
     "@type": "Product",
+  "@id": {{ canonical_url | json }},
     "offers": [
       {%- for variant in product.variants -%}
         {
