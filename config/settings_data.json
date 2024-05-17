@@ -24,7 +24,7 @@
     "color_modal_overlays": "#e6e6e6",
     "color_image_text": "#fff",
     "color_image_overlay": "#000",
-    "color_image_overlay_opacity": 25,
+    "color_image_overlay_opacity": 0,
     "color_image_overlay_text_shadow": 0,
     "type_header_font_family": "futura_n7",
     "type_header_spacing": "0",
