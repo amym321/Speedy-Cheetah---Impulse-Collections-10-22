@@ -62,7 +62,7 @@
     "collection_grid_image": "collection",
     "collection_grid_text_align": "bottom-center",
     "collection_grid_tint": "#000000",
-    "collection_grid_opacity": 10,
+    "collection_grid_opacity": 4,
     "collection_grid_gutter": true,
     "cart_type": "drawer",
     "cart_additional_buttons": false,
