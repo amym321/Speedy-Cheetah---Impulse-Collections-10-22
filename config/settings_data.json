@@ -58,7 +58,7 @@
     "swatch_style": "round",
     "enable_product_reviews": false,
     "collection_grid_style": "overlaid-box",
-    "collection_grid_shape": "square",
+    "collection_grid_shape": "landscape",
     "collection_grid_image": "collection",
     "collection_grid_text_align": "bottom-center",
     "collection_grid_tint": "#000000",
