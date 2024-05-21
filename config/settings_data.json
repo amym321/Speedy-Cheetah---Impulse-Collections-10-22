@@ -179,9 +179,9 @@
           "announcement_above_header": false,
           "toolbar_menu": "",
           "toolbar_social": false,
-          "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false
         }
       },
       "footer": {
