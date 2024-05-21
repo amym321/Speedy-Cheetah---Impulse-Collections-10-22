@@ -9,6 +9,33 @@
         "parallax_direction": "top"
       }
     },
+    "rich_text_HnmVJA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tXAjiH": {
+          "type": "heading",
+          "settings": {
+            "title": "NFL HELMETS"
+          }
+        },
+        "text_8mjgE4": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Pick your team and take home and offical Riddell NFL helmet today!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tXAjiH",
+        "text_8mjgE4"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "divider": false
+      }
+    },
     "main-collection": {
       "type": "collection-nfl",
       "settings": {
@@ -18,6 +45,7 @@
   },
   "order": [
     "collection-header",
+    "rich_text_HnmVJA",
     "main-collection"
   ]
 }
